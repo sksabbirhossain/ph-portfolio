@@ -1,3 +1,34 @@
-* {
-  font-size: 12px;
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;900&family=Roboto&display=swap");
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+h1{
+    font-size: 50px;
+    line-height: 1.5rem;
+}
+.container{
+    display: flex;
+    align-items: center;
+    margin: 20px 6%;
+}
+.container .div-half{
+    width: 50%;
+}
+
+.skip{
+    color: #db5353;
+}
+
+.div-half p{
+    color: #202020;
+    font-size: 16px;
+}
+
+.div-half a{
+    text-decoration: none;
+    font-size: 16px;
+    padding: 10px 15px;
+    color: #fff;
+    background-image: linear-gradient(to right, #c24d4d, #dd2424);;
 }
